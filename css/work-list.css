@@ -1,0 +1,174 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.top-info {
+    padding-top: 15px;
+    padding-left: 25px;
+}
+
+.top-img {
+    height: 148px;
+    background-color: #ff1271;
+    border-radius: 25px 25px 0 0;
+    color: white;
+
+}
+
+.topp {
+    justify-content: space-between;
+}
+
+.pic img {
+    width: 77px;
+    height: 77px;
+    border-radius: 50px;
+    border: 1.5px solid white;
+    margin-top: 6px;
+    margin-left: 15px;
+}
+
+.num {
+    padding-left: 18px;
+    margin-top: 23px;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.num p {
+    margin-bottom: 2px !important;
+
+}
+
+.card {
+    height: 100px;
+    margin-top: 15px;
+    padding-top: 6px;
+}
+
+.invite {
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 85px;
+}
+
+.inFriend {
+    height: 37px;
+    width: 171px;
+    border: none;
+    border-radius: 5px;
+}
+
+.inFriend:hover {
+    background-color: #ff1271;
+}
+
+.Ldraw {
+    height: 37px;
+    width: 171px;
+    border: none;
+    border-radius: 5px;
+}
+
+.Ldraw:hover {
+    background-color: #ff1271;
+}
+
+/* bars */
+.fixed-bottom {
+    background-color: white;
+    display: flex;
+    border-radius: 10px 10px 0 0;
+}
+
+.barrrr {
+    width: 100%;
+    height: 52px;
+    border: none;
+    background-color: #ff1271;
+    padding: 0;
+    margin: 0;
+    margin-inline: -2px;
+    text-align: center;
+    color: white;
+    font-weight: 600;
+    border-radius: 10px 10px 0 0;
+
+}
+
+.barrrr:hover {
+    background-color: violet;
+}
+
+.barrrr:focus {
+    background-color: violet;
+}
+
+/*  */
+.list-img img {
+    height: 42px;
+    width: 50px;
+}
+
+.team-rcrd p {
+    padding-top: 8px;
+    padding-left: 8px;
+}
+
+.earrrn {
+    justify-content: space-between;
+}
+
+.fa-list-ul {
+    padding-right: 11px;
+}
+
+.height {
+    height: 70px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width:700px) {
+    .top-img {
+        width: 450px !important;
+        margin: auto;
+    }
+
+    .record {
+        width: 450px !important;
+        margin: auto;
+    }
+
+    .widddd {
+        width: 450px !important;
+        margin: auto;
+    }
+
+    .fixed-bottom {
+        width: 450px !important;
+        margin: auto;
+    }
+}
